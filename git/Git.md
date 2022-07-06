@@ -41,12 +41,20 @@
 ####  사용자 정보는 커밋하기 위해 반드시 필요
 
 - git config —global user.name “username”
-
 - git config —global user.email “my@email.com”
-
 - 설정 확인을 위해 git config 뒤 `  -l ,  —global -l, git config user.name '`으로 확인 가능
 
-  
+
+
+# 약속!
+
+1. <u>**마스터가 있는 곳에는 깃 이닛을 하지 않는다.**</u>
+
+2. <u>**git 명령어를 입력할 때에는 항상 경로를 잘 보자.**</u>
+
+3. <u>**명령어의 결과 영어를 잘 읽자**</u>
+
+
 
 
 
