@@ -3,24 +3,22 @@ list_ = []
 for i in range(n):
     list_ += (input().split())
 setlist_ = set(list_)
-
-a = max(list_)
-maxti = list_.count(a)
+print(list_)
+origin = list_.count(list[0])
+for i in list_:
+    a = list_.count(i)
+    if a >= origin:
+        origin = a
+print(origin)
 
 sup =  []
 
 for j in setlist_:
-    print(j)
     cou = list_.count(j)
-    if cou == maxti:
-        sup += j
-
+    print(cou)
+    if cou >= origin:
+        sup += (j.split())
+sup .sort()
 print(sup)
-
-
-# a = max(list_)
-# list_ = sorted(list_)
-# b = max(list_)
-# print(list_)
-# print(a)
-# print(b)
+answer = (sup[0])
+print(answer)
