@@ -1,10 +1,19 @@
-a = input()
-b = input()
-c = input()
-d = input()
-e = input()
-gg = [a,b,c,d,e]
+matrix = []
 
-for i in range(15):
-    for j in gg:
-        print(j[i],end='')
+for _ in range(5):
+    n = list(input())
+    matrix.append(n)
+
+
+
+aaa = []
+
+for j in range(0,15):
+    for k in matrix:
+        if len(k) > j:
+            aaa.append(k[j])
+        else:
+            continue
+
+for u in aaa:
+    print(u, end='')
