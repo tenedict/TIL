@@ -1,15 +1,15 @@
-n = int(input())
+import sys
+n = int(sys.stdin.readline())
 
 player = []
 for i in range(n):
-    player += input().split()
+    player += sys.stdin.readline().split()
 
 finish = []
 
 for j in range(n-1):
-    finish += input().split()
+    finish += sys.stdin.readline().split()
 
-for k in finish:
-    player.remove(k)
-
-print(player[0])
+for u in player:
+    if u not in finish:
+        print(u,end='')
