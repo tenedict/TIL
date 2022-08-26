@@ -5,7 +5,7 @@
    - 파이썬에서는 SQLAlchemy,peewee등 라이브러리가 있고
    장고프레임워크에서는 내장 장고 ORM을 사용
    
-   객체로 DB를 조작한다.
+   - 객체로 DB를 조작한다.
    Genre.objects.all()
   모델 설계 및 반영
   클래쓰 생성 
