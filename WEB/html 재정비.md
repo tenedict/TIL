@@ -21,3 +21,14 @@
          -3이 기준 1rem
          auto는 그냥 자동이다
          mx-auto 하면 수평 가운데 정렬한다.
+         
+# 부트스트랩 그리드 시스템
+
+    -column: 실제 컨텐츠를 포함하는 부분
+    -gutter : 칼럼과 칼럼 사이의 공간(사이간격)
+    -container : column을 담고있는 공간
+    
+    그리드 시스템은 flexbox로 제작됨
+    container, rows, column으로 컨텐츠를 배치하고 정렬
+        - 12개의 column
+        - 6개의 grid breakpoints
