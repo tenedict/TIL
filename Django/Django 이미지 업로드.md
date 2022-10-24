@@ -8,7 +8,7 @@
 ###  미디어관련필드
    - ImageField
        - 이미지 업로드에 사용하는 필드
-       - 사요하려면 Pillow라이브러리 필수
+       - 사용하려면 Pillow라이브러리 필수
 
    - FileField
        - 파일 업로드에 사용되는 필드
@@ -83,3 +83,4 @@ class   Article(models.Model):
   image = models.ImageField(upload_to='images/', blank=True)
 ```
     
+==========
